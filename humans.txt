@@ -1,0 +1,51 @@
+﻿/* the humans responsible & colophon */
+/* humanstxt.org */
+ 
+ 
+/* TEAM */
+  Developer: Jeremy Burton
+  Site: www.select-interactive.com
+  Email: jeremy@select-interactive.com
+  Twitter: @Sel_Interactive
+  Twitter: @jermbo002
+  Location: Fort Worth, TX
+
+  Desinger: Jennifer Bachand
+  Site: www.duotypestudio.com
+  Location: Houston, TX
+
+  Designer: Candice Riley Campbell
+  Site: www.duotypestudio.com
+  Location: Atlanta, GA
+
+ 
+/* SITE */
+  Standards: HTML5, CSS3
+  Components: HTML5Boilerplate, Modernizr, jQuery
+  Software: Microsoft Visual Studio 2010, MS SQL Server Management Studio 2008
+   
+ 
+                                     
+                               -o/-                      
+                               +oo//-                    
+                              :ooo+//:                   
+                             -ooooo///-                  
+                             /oooooo//:                  
+                            :ooooooo+//-                 
+                           -+oooooooo///-                
+           -://////////////+oooooooooo++////////////::   
+            :+ooooooooooooooooooooooooooooooooooooo+:::- 
+              -/+ooooooooooooooooooooooooooooooo+/::////:-
+                -:+oooooooooooooooooooooooooooo/::///////:-
+                  --/+ooooooooooooooooooooo+::://////:-  
+                     -:+ooooooooooooooooo+:://////:--    
+                       /ooooooooooooooooo+//////:-       
+                      -ooooooooooooooooooo////-          
+                      /ooooooooo+oooooooooo//:           
+                     :ooooooo+/::/+oooooooo+//-          
+                    -oooooo/::///////+oooooo///-         
+                    /ooo+::://////:---:/+oooo//:         
+                   -o+/::///////:-      -:/+o+//-        
+                   :-:///////:-            -:/://        
+                     -////:-                 --//:       
+                       

@@ -1,0 +1,14 @@
+﻿User-agent: *
+Disallow: /admin/
+Disallow: /announce/
+Disallow: /aspnet_client/
+Disallow: /ckeditor/
+Disallow: /controls/
+Disallow: /css/
+Disallow: /developers/
+Disallow: /fonts/
+Disallow: /js/
+Disallow: /login/
+Disallow: /masterpages/
+Disallow: /styleguide/
+Disallow: /webservices/

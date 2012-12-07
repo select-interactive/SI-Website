@@ -1,0 +1,58 @@
+﻿<%@ Master Language="VB" CodeFile="admin.master.vb" Inherits="masterpages_admin" %>
+<%@ Register TagPrefix="uc" TagName="header" Src="~/controls/header.ascx" %>
+<%@ Register TagPrefix="uc" TagName="footer" Src="~/controls/footer.ascx" %>
+<!doctype html>
+
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <asp:ContentPlaceHolder runat="server" ID="cphMeta" />
+    <link rel="Stylesheet" href="/css/styles.v-1.11.min.css">
+    <script src="/js/libs/modernizr-2.0.6.min.js"></script>
+    <asp:ContentPlaceHolder runat="server" ID="cphHead" />
+</head>
+<body id="admin">
+
+    <div id="page-wrapper">
+        <uc:header runat="server" ID="ucHeader" />
+        <div id="content-wrapper" role="main">
+            <div class="r clearfix">
+                <div class="c">
+                    <aside>
+                        <h4>Admin Options</h4>    
+                        <ul id="admin-nav">
+                            <li><a href="/admin/">Admin Dashboard</a></li>
+                            <li><a href="/admin/blog/">Blog</a></li>
+                        </ul>
+                    </aside>
+                    <asp:ContentPlaceHolder runat="server" ID="cphLeft" />
+                </div>
+                <div class="c">
+                    <asp:ContentPlaceHolder runat="server" ID="cphRight" />
+                </div>
+            </div>
+        </div>
+        <uc:footer runat="server" ID="ucFooter" />
+    </div>
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="/js/libs/jquery-1.7.1.min.js"><\/script>')</script>
+    <script defer src="/js/si/si.util.js"></script>
+    <asp:ContentPlaceHolder runat="server" ID="cphJS" />   
+                     
+    <script>
+        window._gaq = [['_setAccount','UA-28490429-1'],['_trackPageview'],['_trackPageLoadTime']];
+        Modernizr.load({
+            load: ('https:' == location.protocol ? '//ssl' : '//www') + '.google-analytics.com/ga.js'
+        });
+    </script>
+
+    <!--[if lt IE 7 ]>
+        <script defer src="//ajax.googleapis.com/ajax/libs/chrome-frame/1.0.3/CFInstall.min.js"></script>
+        <script defer>window.attachEvent('onload',function(){CFInstall.check({mode:'overlay'})})</script>
+    <![endif]-->
+</body>
+</html>
