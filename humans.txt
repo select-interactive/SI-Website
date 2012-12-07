@@ -22,7 +22,7 @@
 /* SITE */
   Standards: HTML5, CSS3
   Components: HTML5Boilerplate, Modernizr, jQuery
-  Software: Microsoft Visual Studio 2010, MS SQL Server Management Studio 2008
+  Software: Microsoft Visual Studio 2012, MS SQL Server Management Studio 2008, GiHub
    
  
                                      
